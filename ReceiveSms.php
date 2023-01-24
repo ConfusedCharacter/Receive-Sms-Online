@@ -4,6 +4,8 @@
 # By @ConfusedCharacter
 # Url: https://receive-sms-online.info/
 
+header("Content-type: Application/json");
+
 function GetDataReceiveSms(){
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, 'https://receive-sms-online.info/');
