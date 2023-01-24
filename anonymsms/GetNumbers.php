@@ -24,7 +24,7 @@ try{
 	$data = GetDataReceiveSms();
 	if ($data == ""){
 		$jsoned["status"] = false;
-		$jsoned["message"] = "Getting receive-sms-online.info Failed.";
+		$jsoned["message"] = "Getting anonymsms.com Failed.";
 		$jsoned["exception"] = "Failed To Connect host";
 		echo json_encode($jsoned, JSON_PRETTY_PRINT);
 	}
