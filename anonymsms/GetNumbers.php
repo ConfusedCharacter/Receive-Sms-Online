@@ -1,6 +1,7 @@
 <?php
 
-# Receive Sms web service
+# Get Number web service
+# localhost/GetNumbers.php
 # By @ConfusedCharacter
 # Url: https://anonymsms.com/
 
