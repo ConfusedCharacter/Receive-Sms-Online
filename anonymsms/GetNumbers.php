@@ -7,7 +7,7 @@
 
 header("Content-type: Application/json");
 
-function GetDataReceiveSms(){
+function GetDataNumbers(){
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, 'https://anonymsms.com/');
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
