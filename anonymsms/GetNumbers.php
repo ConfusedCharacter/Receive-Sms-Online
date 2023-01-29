@@ -22,7 +22,7 @@ function GetDataNumbers(){
 $jsoned = array( "status" => true );
 
 try{
-	$data = GetDataReceiveSms();
+	$data = GetDataNumbers();
 	if ($data == ""){
 		$jsoned["status"] = false;
 		$jsoned["message"] = "Getting anonymsms.com Failed.";
